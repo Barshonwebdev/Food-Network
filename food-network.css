@@ -1,0 +1,109 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(236, 220, 208);
+    
+}
+
+.title-box h1{
+    text-align: center;
+    color: saddlebrown;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+}
+.title-box img{
+    width: 100% ;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.skip{
+    color: rgb(48, 216, 15);
+}
+
+.intro{
+    display: flex;
+    margin-top: 5%;
+    padding: 3%;
+}
+
+.intro-text{
+
+    font-family: 'Montserrat', sans-serif;
+    padding: 5%;
+    padding-right: 15%;
+    margin-top: 10%;
+}
+
+.intro-text h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10%;
+}
+
+.intro-text p{
+   font-weight: 300;
+   margin-bottom: 10%;
+}
+
+.intro-pic img{
+    margin-left: 7%;
+}
+
+.button{
+    text-decoration: none;
+    border: 2px solid white;
+    width: 120px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    padding: 2%;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-image: linear-gradient(rgb(15, 199, 24), rgb(32, 211, 218));
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.about{
+    display: flex;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    background-size: cover;
+    padding: 10%;
+}
+
+.about-pic{
+    padding-left: 5%;
+    width: 50%;
+
+}
+
+.about-pic img{
+    height: 450px;
+
+}
+.about-text{
+    width: 50%;
+    padding: 5%;
+    margin-left: 15%;
+}
+
+.about-text h2{
+    font-size: 2em;
+}
+
+.about-text p{
+    margin-bottom: 10%;
+}

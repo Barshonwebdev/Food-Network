@@ -109,7 +109,9 @@ body{
 .about-text p{
     margin-bottom: 10%;
 }
-
+.upper-text{
+    margin-bottom: 4%;
+}
 .upper-text h1{
      text-align: center;
 }

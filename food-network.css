@@ -5,7 +5,7 @@ body{
     
 }
 
-.title-box h1{
+#title-box h1{
     text-align: center;
     color: saddlebrown;
     font-weight: 700;
@@ -13,7 +13,7 @@ body{
     font-family: 'Dancing Script', cursive;
     font-size: 2.5em;
 }
-.title-box img{
+#title-box img{
     width: 100% ;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 25px;
@@ -27,7 +27,7 @@ body{
     color: rgb(48, 216, 15);
 }
 
-.intro{
+#intro{
     display: flex;
     margin-top: 5%;
     padding: 3%;
@@ -75,13 +75,15 @@ body{
     font-family: 'Dancing Script', cursive;
 }
 
-.about{
+#about{
     display: flex;
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     margin-top: 5%;
     background-size: cover;
     padding: 10%;
+    margin-bottom: 2%;
+    
 }
 
 .about-pic{
@@ -91,7 +93,7 @@ body{
 }
 
 .about-pic img{
-    height: 450px;
+    height: 400px;
 
 }
 .about-text{
@@ -107,3 +109,116 @@ body{
 .about-text p{
     margin-bottom: 10%;
 }
+
+.upper-text h1{
+     text-align: center;
+}
+
+.upper-text p{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#recipe{
+    margin-bottom: 7%;
+}
+
+.recipe-box{
+    display: flex;
+    
+}
+
+.box{
+    width: 30%;
+    margin-right: 6% ;
+    padding: 1.4% ;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    box-shadow: 20px 25px 20px gray;
+}
+
+.box img{
+    height: 300px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+#recipe{
+    padding: 5%;
+}
+
+#review h1{
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0%;
+}
+
+.review-box{
+    display: flex;
+    
+}
+.reviewer{
+    width: 50%;
+    padding: 5%;
+    
+}
+
+.reviewer img{
+    width: 500px;
+    height: 350px;
+}
+.reviewer h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#secondpic{
+    width: 310px;
+    height: 320px;
+    margin-left: 20%;
+}
+
+#likes{
+    height: 15%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 5%;
+    display: flex;
+    border: 2px solid whitesmoke;
+    border-radius: 20px ;
+    background-color: rgb(255, 255, 255);
+    padding-left: 13%;
+    padding-right: 13%;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+    box-shadow: 20px 20px 20px gray;
+    
+}
+
+.liketext{
+    margin-left: 10%;
+    width: 30%;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 5%;
+}
+
+#footer

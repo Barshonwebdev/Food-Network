@@ -217,10 +217,28 @@ body{
 #footer{
     text-align: center;
     margin-top: 10%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     height: 100px;
     padding: 5%;
 }
+#feedback{
+    margin-top: 5%;
+    height: 400px;
+    width: 45%;
+    border: 5px solid rgb(247, 243, 243);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 10px 10px 20px black;
+    margin-bottom: 12%;
+    
+}
 
-#footer
+#feedback h1{
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 5%;
+}
